@@ -1,0 +1,12 @@
+@import 'variables';
+@import 'mixins';
+@import 'auth';
+@import 'recipe';
+@import 'shared';
+
+body {
+  background-image: url('../assets/background.jpg');
+  background-size: cover;
+  background-position: center;
+}
+

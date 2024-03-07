@@ -1,0 +1,31 @@
+header {
+  background-color: $primary-color;
+  color: #fff;
+  padding: $spacing-unit;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: $spacing-unit * 2;
+}
+
+footer {
+  background-color: #f2f2f2;   
+  padding: $spacing-unit;
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin-top: auto; /* Add this line to move the footer to the bottom */
+}
+
+body {
+  background-image: url('../assets/background.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure the body takes at least the full height of the viewport */
+}
+

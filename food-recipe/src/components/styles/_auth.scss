@@ -1,0 +1,36 @@
+.login-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: $spacing-unit;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+
+  h2 {
+    color: $primary-color;
+  }
+
+  input {
+    width: 100%;
+    padding: $spacing-unit;
+    margin-bottom: $spacing-unit;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    font-size: 16px;
+  }
+
+  button {
+    background-color: $primary-color;
+    color: #fff;
+    padding: $spacing-unit;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+
+    &:hover {
+      background-color: darken($primary-color, 10%);
+    }
+  }
+}
+
